@@ -403,9 +403,10 @@ com as características acima. Dica: produza todas as combinações possíveis e
 a soma quando completar cada quadrado. Usar um vetor de 1 a 9 parece ser mais
 simples que usar uma matriz 3x3.
 
-
-
-'''
+Existe regra pra quando N é impar que ue consegui fazer a função 
+quando N é resto de 4 e quando é resto de 4 mais 1
+o 4n eu consigui tambem porem 
+valores de 4n+2 eu não consegui Sorry mas em a ideia o 6x6 funciona.
 
 
 def quadradro_impares(matrix, n):
@@ -507,7 +508,16 @@ else:
     for i in new:
         print(*i, sep='\n')
         # print(*cubo, sep='\n')
+        
 '''
+
+
+
+'''
+
+Feito quando não entendi o exercício:
+
+
 def diagonal_soma(matrix, soma):
     soma_d = 0
     soma_di = 0
