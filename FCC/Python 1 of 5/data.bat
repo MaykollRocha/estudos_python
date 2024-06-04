@@ -4,7 +4,7 @@
   "descrição":"""
 Os estudantes do ensino fundamental muitas vezes organizam problemas aritméticos verticalmente para torná-los mais fáceis de resolver. Por exemplo, "235 + 52" se torna:  
 
-  235\n+  52\n-----\n:
+  235+  52-----:
 
 Termine a função arithmetic_arranger que recebe uma lista de strings que são problemas aritméticos, e retorna os problemas organizados verticalmente e lado a lado. A função deve opcionalmente receber um segundo argumento. Quando o segundo argumento é definido como True, as respostas devem ser exibidas.  
 Exemplo    
