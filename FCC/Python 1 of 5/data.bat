@@ -2,24 +2,19 @@
   "nome":"Projeto do Formato Aritmédico",
   "infos": {"atividade":"Build an Arithmetic Formatter Project","dia":"26 de Maio de 2024"},
   "descrição":"""Os estudantes do ensino fundamental muitas vezes organizam problemas aritméticos verticalmente para torná-los mais fáceis de resolver. Por exemplo, "235 + 52" se torna:  
-
   235\n+  52\n-----\n:
-
 Termine a função arithmetic_arranger que recebe uma lista de strings que são problemas aritméticos, e retorna os problemas organizados verticalmente e lado a lado. A função deve opcionalmente receber um segundo argumento. Quando o segundo argumento é definido como True, as respostas devem ser exibidas.  
 Exemplo    
 Chamada da Função:  
-
 arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])  
 Saída:  
    32      3801      45      123 \n + 698    -    2    + 43    +  49\n  -----    ------    ----    -----\n:  
 Chamada da Função:  
-
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
 Saída:  
   32         1      9999      523 \n +  8    - 3801    + 9999    -  49\n  ----    ------    ------    ----- \n 40     -3800     19998      474: 
 Regras  
 A função retornará a conversão correta se os problemas fornecidos estiverem formatados corretamente, caso contrário, retornará uma string que descreve um erro significativo para o usuário.  
-
 Situações que retornarão um erro:  
 Se houver muitos problemas fornecidos para a função. O limite é de cinco, qualquer coisa além disso retornará: 'Erro: Muitos problemas.'  
 Os operadores apropriados que a função aceitará são adição e subtração. Multiplicação e divisão retornarão um erro. Outros operadores não mencionados neste ponto de lista não precisarão ser testados. O erro retornado será: "Erro: O operador deve ser '+' ou '-'."  
