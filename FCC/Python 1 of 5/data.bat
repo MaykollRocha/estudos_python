@@ -1,7 +1,7 @@
 {
   "nome":"",
   "infos": {"atividade":"Build an Arithmetic Formatter Project","dia":"26 de Maio de 2024"},
-  "descrição":"""
+  "descrição":r"""
               Claro! Aqui está a tradução para o português do problema proposto:  
 
 "Os estudantes do ensino fundamental muitas vezes organizam problemas aritméticos verticalmente para torná-los mais fáceis de resolver. Por exemplo, "235 + 52" se torna:  
