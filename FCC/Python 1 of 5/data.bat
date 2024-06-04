@@ -67,7 +67,7 @@ print(arithmetic_arranger(["98 + 3g5", "3801 - 2", "45 + 43", "123 + 49"]))
 print(arithmetic_arranger(["3 + 855", "988 + 40"], True))
 print(arithmetic_arranger(["32 - 698", "1 - 3801", "45 + 43", "123 + 49", "988 + 40"], True))
            """,
-    "imgs":"output_BAFP.png",
+    "imag":"output_BAFP.png",
     "agregamento":"""
                   Foi muito interresente e pretendo apresentar esse trabalho pra algum aluno de matemática ou algo do tipo.
                   """,
