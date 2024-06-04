@@ -1,15 +1,13 @@
 {
   "nome":"",
   "infos": {"atividade":"Build an Arithmetic Formatter Project","dia":"26 de Maio de 2024"},
-  "descrição":r"""
-              Claro! Aqui está a tradução para o português do problema proposto:  
+  "descrição":"
+Os estudantes do ensino fundamental muitas vezes organizam problemas aritméticos verticalmente para torná-los mais fáceis de resolver. Por exemplo, "235 + 52" se torna:  
 
-"Os estudantes do ensino fundamental muitas vezes organizam problemas aritméticos verticalmente para torná-los mais fáceis de resolver. Por exemplo, "235 + 52" se torna:  
-"
-  235  
-+  52  
------  
-"
+  235:
++  52:
+-----:
+
 Termine a função arithmetic_arranger que recebe uma lista de strings que são problemas aritméticos, e retorna os problemas organizados verticalmente e lado a lado. A função deve opcionalmente receber um segundo argumento. Quando o segundo argumento é definido como True, as respostas devem ser exibidas.  
 Exemplo    
 Chamada da Função:  
