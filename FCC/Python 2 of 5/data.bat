@@ -64,6 +64,6 @@ Aqui estão alguns exemplos de diferentes casos que a função deve lidar. Prest
     "agregamento":"""
                   Para alguém familiarizado com Python, o código pode parecer trivial. No entanto, o objetivo é explorar várias abordagens pouco comuns ou subutilizadas. Foi uma experiência fascinante recriar esse projeto, pois envolveu a exploração de técnicas e métodos que raramente são utilizados ou que, quando utilizados, muitas vezes são negligenciados.  
                   """,
-  "link": ""
+  "link": "https://github.com/MaykollRocha/estudos_python/tree/main/FCC/Python%202%20of%205"
 
 }
