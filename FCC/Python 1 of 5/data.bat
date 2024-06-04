@@ -12,21 +12,17 @@ Chamada da Função:
 
 arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])  
 Saída:  
-"
    32      3801      45      123  
 + 698    -    2    + 43    +  49  
 -----    ------    ----    -----  
-"
 Chamada da Função:  
 
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
 Saída:  
-"
   32         1      9999      523  
 +  8    - 3801    + 9999    -  49  
 ----    ------    ------    -----  
   40     -3800     19998      474  
-"
 Regras  
 A função retornará a conversão correta se os problemas fornecidos estiverem formatados corretamente, caso contrário, retornará uma string que descreve um erro significativo para o usuário.  
 
