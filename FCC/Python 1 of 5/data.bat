@@ -11,21 +11,15 @@ Chamada da Função:
 
 arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])  
 Saída:  
-"
-   32      3801      45      123  
-+ 698    -    2    + 43    +  49  
------    ------    ----    -----  
-"
+   32      3801      45      123 \n + 698    -    2    + 43    +  49\n  -----    ------    ----    -----\n:  
 Chamada da Função:  
 
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
 Saída:  
-"
   32         1      9999      523  
 +  8    - 3801    + 9999    -  49  
 ----    ------    ------    -----  
   40     -3800     19998      474  
-"
 Regras  
 A função retornará a conversão correta se os problemas fornecidos estiverem formatados corretamente, caso contrário, retornará uma string que descreve um erro significativo para o usuário.  
 
@@ -38,7 +32,7 @@ Se o usuário fornecer o formato correto dos problemas, a conversão que você r
 Deve haver um único espaço entre o operador e o maior dos dois operandos; o operador estará na mesma linha que o segundo operando; ambos os operandos estarão na mesma ordem que fornecido (o primeiro será o superior e o segundo será o inferior).  
 Os números devem ser alinhados à direita.  
 Deve haver quatro espaços entre cada problema.  
-Deve haver traços na parte inferior de cada problema. Os traços devem percorrer todo o comprimento de cada problema individualmente. (O exemplo acima mostra como isso deve parecer.)
+Deve haver traços na parte inferior de cada problema. Os traços devem percorrer todo o comprimento de cada problema individualmente. (O exemplo acima mostra como isso deve parecer.)  
  """,
   "Código":"""
   def arithmetic_arranger(problems, show_answers=False):
