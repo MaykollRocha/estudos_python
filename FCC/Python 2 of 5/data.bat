@@ -1,7 +1,7 @@
 {
   "nome":"Cacalcular o Tempo",
   "infos": {"atividade":"Build a Time Calculator ProjectCertification Project","dia":"3 de junho de 2024"},
-  "descrição":"""Escreva uma função chamada add_time que recebe dois parâmetros obrigatórios e um parâmetro opcional:  
+  "descrição":"""Escreva uma função chamada add_time que recebe dois parâmetros obrigatórios e um parâmetro opcional :  
 * um horário de início no formato de relógio de 12 horas (terminando em AM ou PM)  
 * um tempo de duração que indica o número de horas e minutos  
 * (opcional) um dia da semana de início, sem diferenciação de maiúsculas e minúsculas  
