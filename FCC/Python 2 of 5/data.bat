@@ -59,6 +59,7 @@ Se a função receber o parâmetro opcional do dia da semana de início, então 
   print(add_time('11:59 PM', '24:05', 'Wednesday'))
   print(add_time('8:16 PM', '466:02', 'tuesday'))
            """,
+"imag":"output_BTCP.png",
     "agregamento":"""
                   Para alguém familiarizado com Python, o código pode parecer trivial. No entanto, o objetivo é explorar várias abordagens pouco comuns ou subutilizadas. Foi uma experiência fascinante recriar esse projeto, pois envolveu a exploração de técnicas e métodos que raramente são utilizados ou que, quando utilizados, muitas vezes são negligenciados.  
                   """,
