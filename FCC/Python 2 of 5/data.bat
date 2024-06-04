@@ -8,7 +8,6 @@
 A função deve adicionar o tempo de duração ao horário de início e retornar o resultado.  
 Se o resultado for no dia seguinte, deve mostrar (próximo dia) após o horário. Se o resultado for mais de um dia depois, deve mostrar (n dias depois) após o horário, onde "n" é o número de dias depois.  
 Se a função receber o parâmetro opcional do dia da semana de início, então a saída deve exibir o dia da semana do resultado. O dia da semana na saída deve aparecer após o horário e antes do número de dias depois.  
-Aqui estão alguns exemplos de diferentes casos que a função deve lidar. Preste atenção à formatação e pontuação dos resultados.  
               """,
   "Código":"""
   def add_time(start, duration,week=None):
