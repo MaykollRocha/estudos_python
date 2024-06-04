@@ -1,7 +1,7 @@
 {
   "nome":"Projeto do Formato Aritmédico",
   "infos": {"atividade":"Build an Arithmetic Formatter Project","dia":"26 de Maio de 2024"},
-  "descrição":"""Os estudantes do ensino fundamental muitas vezes organizam problemas aritméticos verticalmente para torná-los mais fáceis de resolver.
+  "descrição":"""Os estudantes do ensino fundamental muitas vezes organizam problemas aritméticos verticalmente para torná-los mais fáceis de resolver.  
 Regras  
 A função retornará a conversão correta se os problemas fornecidos estiverem formatados corretamente, caso contrário, retornará uma string que descreve um erro significativo para o usuário.  
 Situações que retornarão um erro:  
