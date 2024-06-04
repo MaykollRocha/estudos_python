@@ -5,6 +5,7 @@
 * um horário de início no formato de relógio de 12 horas (terminando em AM ou PM)  
 * um tempo de duração que indica o número de horas e minutos  
 * (opcional) um dia da semana de início, sem diferenciação de maiúsculas e minúsculas  
+
 A função deve adicionar o tempo de duração ao horário de início e retornar o resultado.  
 Se o resultado for no dia seguinte, deve mostrar (próximo dia) após o horário. Se o resultado for mais de um dia depois, deve mostrar (n dias depois) após o horário, onde "n" é o número de dias depois.  
 Se a função receber o parâmetro opcional do dia da semana de início, então a saída deve exibir o dia da semana do resultado. O dia da semana na saída deve aparecer após o horário e antes do número de dias depois.  
