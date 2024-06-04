@@ -1,7 +1,7 @@
 {
-  "nome":"",
+  "nome":"Projeto do Formato Aritmédico",
   "infos": {"atividade":"Build an Arithmetic Formatter Project","dia":"26 de Maio de 2024"},
-  "descrição":"
+  "descrição":"""
 Os estudantes do ensino fundamental muitas vezes organizam problemas aritméticos verticalmente para torná-los mais fáceis de resolver. Por exemplo, "235 + 52" se torna:  
 
   235\n+  52\n-----\n:
