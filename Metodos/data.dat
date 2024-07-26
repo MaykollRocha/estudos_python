@@ -1,0 +1,11 @@
+{
+  "nome":"MMultiplicaxão em 2-10 base",
+  "infos": {"atividade":"Calculadora que faz a multiplicação em 2-10 bases numericas","dia":"Ano 2022"},
+  "descrição":"""Uma calculadora desenvolvida durante o semestre em que cursei Métodos Numéricos, utilizada para me auxiliar na multiplicação em diferentes bases.""",
+  "Código":"https://raw.githubusercontent.com/MaykollRocha/estudos_python/main/Metodos/tabaio_Metodos.py",
+    "imag":["output_tk1.png","output_tk1.png"],
+    "agregamento":"""
+                  Durante o semestre em que cursei Métodos Numéricos, desenvolvi uma calculadora utilizando a biblioteca Tkinter. Na época, eu ainda não tinha um conhecimento aprofundado sobre programação orientada a objetos. Atualmente, a calculadora ainda é útil, mas está mal otimizada.
+              """,
+  "link": "https://github.com/MaykollRocha/estudos_python/blob/main/Metodos/tabaio_Metodos.py",
+}
