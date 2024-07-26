@@ -14,7 +14,7 @@ Uma lista dos itens no livro-razão. Cada linha deve mostrar a descrição e o v
 Uma linha exibindo o total da categoria.  
  """,
   "Código":"https://raw.githubusercontent.com/MaykollRocha/estudos_python/main/FCC/Python%203%20of%205/Budget_App_Project.py",
-    "imag":"output_BA.png",
+    "imag":["output_BA.png"],
     "agregamento":"""
                   Esse projeto tende a trazer uma visão mais de computação gráfico terminal, achei ele muito interessante, lembrando que já sou uma pessoas acida dentro do mundo da programação em python mas por python ser uma linguagem muito grande sempre nos deparamos como coisas inesperadas como esta apresentadas par min, porem nada foi incrementador dentro de tudo que já conheia de Python.
                   """,
