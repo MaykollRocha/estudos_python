@@ -1,6 +1,6 @@
 {
-  "nome":"Projeto do Formato Aritmédico",
-  "infos": {"atividade":"Build an Arithmetic Formatter Project","dia":"26 de Maio de 2024"},
+  "nome":"Build a Budget App Project",
+  "infos": {"atividade":"Build a Budget App Project","dia":"13 de Julho de 2024"},
   "descrição":"""
 Completar a classe Categoria. Ela deve ser capaz de instanciar objetos baseados em diferentes categorias de orçamento, como alimentos, vestuário e entretenimento. Quando os objetos forem criados, eles devem receber o nome da categoria. A classe deve ter uma variável de instância chamada livro-razão, que é uma lista. A classe também deve conter os seguintes métodos:  
 Um método de depósito que aceita um valor e uma descrição. Se nenhuma descrição for fornecida, deve ser padrão uma string vazia. O método deve adicionar um objeto à lista livro-razão na forma de {'amount': valor, 'description': descrição}.  
