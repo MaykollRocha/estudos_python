@@ -1,65 +1,69 @@
 {
-  "nome":"Build a Probability Calculator Project",
-  "infos": {"atividade":"Build a Probability Calculator Project Certification Project","dia":"13 de junho de 2024"},
-  "descrição":"""
-	Suponha que há um chapéu contendo 5 bolas azuis, 4 bolas vermelhas e 2 bolas verdes. Qual é a probabilidade de que uma extração aleatória de 4 bolas contenha pelo menos 1 bola vermelha e 2 bolas verdes? Embora seja possível calcular a probabilidade usando matemática avançada, uma maneira mais fácil é escrever um programa para realizar um grande número de experimentos para estimar uma probabilidade aproximada.
+  "nome":"Cacalcular o Tempo",
+  "infos": {"atividade":"Build a Time Calculator ProjectCertification Project","dia":"3 de junho de 2024"},
+  "descrição":"""Escreva uma função chamada add_time que recebe dois parâmetros obrigatórios e um parâmetro opcional :  
+* um horário de início no formato de relógio de 12 horas (terminando em AM ou PM)  
+* um tempo de duração que indica o número de horas e minutos  
+* (opcional) um dia da semana de início, sem diferenciação de maiúsculas e minúsculas  
 
-Para este projeto, você escreverá um programa para determinar a probabilidade aproximada de desenhar certas bolas aleatoriamente de um chapéu.
+A função deve adicionar o tempo de duração ao horário de início e retornar o resultado.  
+Se o resultado for no dia seguinte, deve mostrar (próximo dia) após o horário. Se o resultado for mais de um dia depois, deve mostrar (n dias depois) após o horário, onde "n" é o número de dias depois.  
+Se a função receber o parâmetro opcional do dia da semana de início, então a saída deve exibir o dia da semana do resultado. O dia da semana na saída deve aparecer após o horário e antes do número de dias depois.  
               """,
   "Código":"""
-  import random
-from collections import Counter
-import copy
-
-class Hat:
-    def __init__(self, **balls):
-        self.contents = []
-        for color, count in balls.items():
-            self.contents.extend([color] * count)
-    
-    def draw(self, num_balls):
-        drawn_balls = []
-        if num_balls >= len(self.contents):
-            drawn_balls = self.contents
-            self.contents = []
-        else:
-            indices = random.sample(range(len(self.contents)), num_balls)
-            drawn_balls = [self.contents[i] for i in sorted(indices, reverse=True)]
-            for i in sorted(indices, reverse=True):
-                del self.contents[i]
-        return drawn_balls
-
-def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
-    successful_experiments = 0
-    
-    for _ in range(num_experiments):
-        hat_copy = copy.deepcopy(hat)
-        drawn_balls = hat_copy.draw(num_balls_drawn)
-        drawn_balls_count = Counter(drawn_balls)
-        
-        # Check if all expected balls are in the drawn balls
-        success = True
-        for color, expected_count in expected_balls.items():
-            if drawn_balls_count[color] < expected_count:
-                success = False
-                break
-        
-        if success:
-            successful_experiments += 1
-    
-    return successful_experiments / num_experiments
-
-hat = Hat(black=6, red=4, green=3)
-probability = experiment(hat=hat,
-                  expected_balls={"red":2,"green":1},
-                  num_balls_drawn=5,
-                  num_experiments=2000)
-print(probability)
+  def add_time(start, duration,week=None):
+      tempo,periodo = start.split(' ')
+      hora,minutos = (int(i) for i in tempo.split(':'))
+      ahora,aminutos = (int(i) for i in duration.split(':'))
+      minutos += aminutos
+  
+      
+      if minutos >= 60:
+          ahora += 1
+          minutos -= 60
+      hora += ahora
+      dayspass = 0
+      while hora >= 12:
+          hora -= 1
+          if 'AM' == periodo:
+              periodo = 'PM'
+          else:
+              dayspass += 1
+              periodo = 'AM'
+          hora -= 11
+      if hora == 0:
+          hora = 12
+      
+      new_time = f'{hora}:{minutos:02d} {periodo}'
+  
+      if week:
+          week =week.capitalize()
+          weeks = ('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday')
+          idex = (weeks.index(week) + dayspass)%7
+  
+          new_time += f', {weeks[idex]}'
+  
+      if dayspass == 1:
+          new_time += ' (next day)'
+      elif dayspass:
+          new_time += f' ({dayspass} days later)'
+  
+      
+      return new_time
+  
+  print(add_time('3:30 PM', '2:12'))
+  print(add_time('11:55 AM', '3:12'))
+  print(add_time('2:59 AM', '24:00'))
+  print(add_time('11:59 PM', '24:05'))
+  print(add_time('3:30 PM', '2:12', 'Monday'))
+  print(add_time('2:59 AM', '24:00', 'saturDay'))
+  print(add_time('11:59 PM', '24:05', 'Wednesday'))
+  print(add_time('8:16 PM', '466:02', 'tuesday'))
            """,
-"imag":"imgs\output_PCP.png",
+"imag":"output_BTCP.png",
     "agregamento":"""
-                 Um projeto mais experimental, não acho que foi tão relevante quanto os outros mais em consenso de conhecimento gerais fazer uma calculadora de probabilidade é bem legal principalmente para futuros pensamentos de analise de dados em vias reais.
+                  Para alguém familiarizado com Python, o código pode parecer trivial. No entanto, o objetivo é explorar várias abordagens pouco comuns ou subutilizadas. Foi uma experiência fascinante recriar esse projeto, pois envolveu a exploração de técnicas e métodos que raramente são utilizados ou que, quando utilizados, muitas vezes são negligenciados.  
                   """,
-  "link": "https://github.com/MaykollRocha/estudos_python/blob/main/FCC/Python%205%20of%205/Probability_Calculator.py"
+  "link": "https://github.com/MaykollRocha/estudos_python/tree/main/FCC/Python%202%20of%205"
 
 }
