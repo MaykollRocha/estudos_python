@@ -16,7 +16,7 @@ Deve haver quatro espaços entre cada problema.
 Deve haver traços na parte inferior de cada problema. Os traços devem percorrer todo o comprimento de cada problema individualmente. (O exemplo acima mostra como isso deve parecer.)  
  """,
   "Código":"https://raw.githubusercontent.com/MaykollRocha/estudos_python/main/FCC/Python%201%20of%205/Arithmetic_Formatter_Project.py",
-    "imag":"output_BAFP.png",
+    "imag":["output_BAFP.png"],
     "agregamento":"""
                   Foi muito interresente e pretendo apresentar esse trabalho pra algum aluno de matemática ou algo do tipo.
                   """,
