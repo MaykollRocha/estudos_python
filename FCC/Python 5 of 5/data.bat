@@ -56,7 +56,7 @@ probability = experiment(hat=hat,
                   num_experiments=2000)
 print(probability)
            """,
-"imag":"imgs\output_PCP.png",
+"imag":"output_PCP.png",
     "agregamento":"""
                  Um projeto mais experimental, não acho que foi tão relevante quanto os outros mais em consenso de conhecimento gerais fazer uma calculadora de probabilidade é bem legal principalmente para futuros pensamentos de analise de dados em vias reais.
                   """,
